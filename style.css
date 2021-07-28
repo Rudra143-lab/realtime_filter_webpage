@@ -1,0 +1,36 @@
+.btn-info{
+    font-size: 30px;
+    font-family: Lobester;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Lobester;
+    src: url("Lobster-Regular.ttf");
+}
+
+body{
+    background-image: url("background.jpg");
+}
+
+.btn-success{
+    font-size: 16px;
+}
+
+.btn-success:hover{
+    background-color: orangered;
+    font-size: 18px;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    border: 8px solid black;
+    border-radius: 10px;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 100px red ;}
+    to{box-shadow: 1px 1px 100px purple ;}
+}
